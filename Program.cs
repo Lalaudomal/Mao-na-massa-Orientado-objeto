@@ -7,9 +7,11 @@ namespace Balta.ContentContext
     {
         private static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
-
+            var course = new Course();
+            course.Level = ContentContext.Enums.EContentLevel.iniciante;
             var Course = new Course();
+            careerItem.Items.add(new careerItem());
+            Console.WriteLine(career.TotalCourses);
         }
     }
 }
