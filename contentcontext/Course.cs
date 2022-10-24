@@ -1,10 +1,13 @@
 using Balta.ContentContext.Enums;
+using System.Collections.Generic;
+using System.Reflection;
 
 namespace Balta.ContentContext
 {
     public class Course : Content
     {
-        public Course()
+        public Course(string Title, string Url)
+        : base(Title, Url)
         {
             Modules = new List<Module>();
         }

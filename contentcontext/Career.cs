@@ -2,7 +2,8 @@ namespace Balta.ContentContext
 {
     public class Career : Content
     {
-        public Career()
+        public Career(string Title, string Url)
+        : base(Title, Url)
         {
             Items = new List<careerItem>();
         }
